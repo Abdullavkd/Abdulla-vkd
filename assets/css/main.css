@@ -880,6 +880,21 @@ section,
   position: relative;
 }
 
+.about-image{
+  height: auto;
+  overflow: hidden;
+  border-radius: 1000px;
+  max-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-image{
+  height: 100rem;
+  width: auto;
+}
+
 .about .about-image img {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
